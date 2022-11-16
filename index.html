@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    li {
+        list-style-type: none;
+    }
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+    body {
+        background-color: #555;
+    }
+    .wrapper {
+        width: 800px;
+        margin: 0 auto;
+    }
+    .header {
+        background-image: url(images/header-bg.png);
+        text-align: center;
+        height: 450px;
+    }
+    .header img {
+        margin-top: 50px;
+    }
+    .header h1 {
+        color: orange;
+        margin: 80px 0 12px;
+    }
+    .header p {
+        color: white;
+        width: 600px;
+        margin: 20px auto;
+    }
+    .contents {
+        background-color: #aaa;
+        overflow: hidden;
+    }
+    .section {
+        margin: 20px;
+        padding: 20px;
+        background-color: white;
+        background-image: url(images/jack-fullbody.png);
+        background-repeat: no-repeat;
+        background-position: right 50px center;
+    }
+    
+    .section h2 {
+        color :crimson;
+        margin-bottom: 10px;
+    }
+    .section li{
+        border-left: 10px solid #ddd;
+        padding: 4px 10px;
+    }
+    .section li:hover {
+        color: blue;
+        border-left: 10px;
+    }
+    .footer {
+        background-color: #000;
+        color: orange;
+        text-align: center;
+        padding: 20px 0;
+        letter-spacing: 5px;
+    }
+</style>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <img src="images/jack.png" alt="">
+            <h1>Nightmare before Christmas</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui obcaecati dolor et corrupti aliquid eveniet commodi, eum minus reprehenderit quo quod similique ratione exercitationem dignissimos eos, possimus quibusdam, maxime reiciendis.</p>
+        </div>
+
+        <div class="contents">
+            <div class="section">
+                <h2>Filmography</h2>
+                <ul>
+                    <li><a href="https://en.wikipedia.org/wiki/The_Nightmare_Before_Christmas">Web Site</a></li>
+                    <li>Story by Tim Burtton</li>
+                    <li>Made by Disney</li>
+                </ul>
+            </div>
+            <div class="section">
+                <h2>Filmography</h2>
+                <ul>
+                    <li>Web Site</li>
+                    <li>Story by Tim Burtton</li>
+                    <li>Made by Disney</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer">
+            <p>NIGHTMARE CHRISTMAS</p>
+        </div>
+    </div>
+</body>
+</html>
